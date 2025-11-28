@@ -1,0 +1,42 @@
+# Node modules
+node_modules/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Runtime data
+pids/
+*.pid
+*.seed
+*.pid.lock
+
+# Environment variables
+.env
+
+# Build output
+dist/
+build/
+
+# Clerk local files
+.clerk/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# VSCode
+.vscode/
+
+# Optional: MongoDB local files
+*.db
+*.dump
+
+# Optional: npm cache
+.npm/
+
+# Optional: temporary files
+tmp/
