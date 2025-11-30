@@ -10,7 +10,7 @@ dotenv.config();
 const router = express.Router();
 
 const gen = new GoogleGenerativeAI(process.env.GEMINI_API_KEY);
-const model = gen.getGenerativeModel({ model: "gemini-1.5-flash" }); // or "gemini-1.5-pro"
+const model = gen.getGenerativeModel({ model: "gemini-2.5-flash" }); // or "gemini-1.5-pro"
 
 function safeExtractJSON(text) {
   const match = text.match(/\{[\s\S]*\}/);
