@@ -3,6 +3,7 @@ import dotenv from "dotenv";
 import cors from "cors";
 import connectDB from "./config/db.js";
 import onboardingRoutes from "./routes/onboardingRoutes.js";
+import mockRoutes from "./routes/mockInterviewRoutes.js";
 
 dotenv.config();
 connectDB();
@@ -14,6 +15,7 @@ app.use(express.json());
 
 // Routes
 app.use("/api/onboarding", onboardingRoutes);
+app.use("/api/mock", mockRoutes);
 
 const PORT = process.env.PORT || 5000;
 
