@@ -5,8 +5,11 @@
     "cors": "^2.8.5",
     "dotenv": "^17.2.3",
     "express": "^5.1.0",
+    "mammoth": "^1.11.0",
     "mongoose": "^9.0.0",
-    "nanoid": "^5.1.6"
+    "multer": "^2.0.2",
+    "nanoid": "^5.1.6",
+    "pdf-parse": "^2.4.5"
   },
   "type": "module",
   "main": "server.js",

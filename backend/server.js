@@ -2,8 +2,8 @@ import express from "express";
 import dotenv from "dotenv";
 import cors from "cors";
 import connectDB from "./config/db.js";
-import onboardingRoutes from "./routes/onboardingRoutes.js";
-import mockRoutes from "./routes/mockInterviewRoutes.js";
+
+
 
 dotenv.config();
 connectDB();
@@ -14,8 +14,10 @@ app.use(cors());
 app.use(express.json());
 
 // Routes
-app.use("/api/onboarding", onboardingRoutes);
-app.use("/api/mock", mockRoutes);
+
+app.get("/", (req, res) => {
+  res.send("Backend is running");
+});
 
 const PORT = process.env.PORT || 5000;
 
