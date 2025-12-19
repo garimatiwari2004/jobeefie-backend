@@ -13,6 +13,8 @@ pids/
 *.pid
 *.seed
 *.pid.lock
+uploads/*
+!uploads/.gitkeep
 
 # Environment variables
 .env

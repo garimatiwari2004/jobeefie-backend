@@ -2,6 +2,7 @@
   "dependencies": {
     "@clerk/clerk-sdk-node": "^4.13.23",
     "@google/generative-ai": "^0.24.1",
+    "@mozilla/readability": "^0.6.0",
     "cors": "^2.8.5",
     "dotenv": "^17.2.3",
     "express": "^5.1.0",
@@ -9,7 +10,11 @@
     "mongoose": "^9.0.0",
     "multer": "^2.0.2",
     "nanoid": "^5.1.6",
-    "pdf-parse": "^2.4.5"
+    "pdf-parse": "^2.4.5",
+    "pdf-text-extract": "^1.5.0",
+    "pdf2json": "^4.0.0",
+    "pdfjs-dist": "^5.4.449",
+    "pdfreader": "^3.0.8"
   },
   "type": "module",
   "main": "server.js",
